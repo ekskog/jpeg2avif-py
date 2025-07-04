@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pip environment
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# PyBuilder
+target/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VSCode / PyCharm / JetBrains
+.vscode/
+.idea/
+
+# macOS + Linux Finder + Docker
+.DS_Store
+Thumbs.db
+*.swp
+
+# Docker
+__docker_build/
+docker-compose.override.yml
+
+# Python virtualenv
+*.egg-info/
+.eggs/
+
+# AVIFs and converted images (optional)
+*.avif
+*.temp.jpg

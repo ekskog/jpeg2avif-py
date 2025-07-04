@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: jpeg2avif
-          image: jpeg2avif-web:latest
+          image: ghcr.io/ekskog/jpeg2avif-web:latest
           ports:
             - containerPort: 8000
           resources:
